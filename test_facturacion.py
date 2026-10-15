@@ -1,8 +1,6 @@
-from unittest.mock import patch
-
 import pytest
-
-from facturacion import calcular_total_factura
+from unittest.mock import patch
+from test1.facturiacion import calcular_total_factura
 
 
 def test_calcular_total_factura_exitoso_con_mock():
